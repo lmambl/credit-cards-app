@@ -1,39 +1,52 @@
-.absolute-position {
-	position: absolute;
+.credit-card__front {
+	display: flex;
+}
+.credit-card__front-top {
+	margin-left: 30px;
+	margin-top: 30px;
 }
 .credit-card__front-balance {
-	top: 30px;
-	left: 30px;
+	width: 126px;
+	height: 13px;
+	flex-shrink: 0;
 	opacity: 0.54;
+	margin-bottom: 9px;
 }
-
 .credit-card__front-money {
-	top: 52px;
-	left: 30px;
+	width: 145px;
+	height: 26px;
+	flex-shrink: 0;
 	font-size: 28px;
+	margin-bottom: 68px;
 }
-
 .credit-card__front-number {
-	top: 146px;
-	left: 30px;
+	width: 165px;
+	height: 13px;
+	flex-shrink: 0;
+
+	color: #fff;
+
 	letter-spacing: 0.5px;
 	opacity: 0.9;
 }
-
-.credit-card__front-data {
-	top: 146px;
-	left: 242px;
-	letter-spacing: 0.5px;
-}
-.credit-card__front-money:hover,
-.credit-card__front-number:hover,
-.credit-card__front-data:hover {
-	cursor: pointer;
+.credit-card__front-bottom {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	margin-left: 45px;
+	align-items: flex-end;
 }
 
 .credit-card__front-logo {
-	top: 25px;
-	left: 240px;
+	width: 45px;
+	height: 35.918px;
+	margin-bottom: 85px;
+}
+
+.credit-card__front-data {
+	width: 43px;
+	height: 13px;
+	flex-shrink: 0;
 }
 .filter {
 	filter: blur(4px);

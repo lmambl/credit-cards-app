@@ -1,17 +1,11 @@
 .credit-card-main {
-	position: relative;
 	width: 315px;
 	height: 184px;
 	border-radius: 30px;
 	background: linear-gradient(177deg, #9c2cf3 -13.49%, #3a49f9 109.75%);
 
-	margin-inline: auto;
-	inset-inline: 0;
-	inset-block-start: 50%;
-	transform: translateY(-50%);
-
 	color: #fff;
-	font-family: Roboto;
+	font-family: 'Roboto';
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 500;

@@ -1,32 +1,37 @@
-.credit-card__back-logo {
-	top: 20px;
-	left: 29.06px;
+.credit-card__back {
+	display: flex;
+	flex-direction: column;
+}
+.credit-card__back-midle-info {
+	display: flex;
+}
+.credit-card__back-top-logo {
+	width: 47.793px;
+	height: 27.811px;
+	margin-top: 20px;
+	margin-bottom: 29px;
+	margin-left: 29px;
+}
+.credit-card__back-data,
+.credit-card__back-CVV {
+	width: 27px;
+	height: 10px;
+	margin-bottom: 12px;
+	font-size: 12px;
+	opacity: 0.5;
 }
 .credit-card__back-data {
-	top: 77px;
-	left: 29px;
-	font-size: 12px;
-	opacity: 0.5;
+	margin-right: 28px;
 }
-.credit-card__back-data-number {
-	top: 99px;
-	left: 29px;
-	font-size: 11px;
-	line-height: 162.7%; /* 17.897px */
+.credit-card__back-midle-info {
+	margin-left: 29px;
+	margin-bottom: 19px;
 }
-.credit-card__back-CVV {
-	top: 77px;
-	left: 84px;
-	font-size: 12px;
-	opacity: 0.5;
-}
+.credit-card__back-data-number,
 .credit-card__back-CVV-number {
-	top: 99px;
-	left: 83px;
 	font-size: 11px;
 	line-height: 162.7%; /* 17.897px */
 }
 .credit-card__back-chip {
-	top: 137px;
-	left: 29px;
+	margin-left: 29px;
 }
