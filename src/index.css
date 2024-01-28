@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	color-scheme: dark;
+}
+
+#root {
+	min-height: 100vh;
+	position: relative;
+	background: #112531;
+}

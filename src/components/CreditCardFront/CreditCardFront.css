@@ -1,0 +1,43 @@
+.absolute-position {
+	position: absolute;
+}
+.credit-card__front-balance {
+	top: 30px;
+	left: 30px;
+	opacity: 0.54;
+}
+
+.credit-card__front-money {
+	top: 52px;
+	left: 30px;
+	font-size: 28px;
+}
+
+.credit-card__front-number {
+	top: 146px;
+	left: 30px;
+	letter-spacing: 0.5px;
+	opacity: 0.9;
+}
+
+.credit-card__front-data {
+	top: 146px;
+	left: 242px;
+	letter-spacing: 0.5px;
+}
+.credit-card__front-money:hover,
+.credit-card__front-number:hover,
+.credit-card__front-data:hover {
+	cursor: pointer;
+}
+
+.credit-card__front-logo {
+	top: 25px;
+	left: 240px;
+}
+.filter {
+	filter: blur(4px);
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
+}
